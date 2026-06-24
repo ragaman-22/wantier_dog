@@ -2,7 +2,7 @@ import { AppShell } from '../components/AppShell'
 import { useAuth } from '../hooks/useAuth'
 import {
   Bell, Search, Sparkles, Flame, Navigation, MapPin, Crown,
-  ChevronRight, PawPrint, LogOut, Plus, CalendarDays, Users, Store,
+  ChevronRight, PawPrint, LogOut, Plus, CalendarDays, Store,
 } from 'lucide-react'
 import { Link } from 'react-router-dom'
 

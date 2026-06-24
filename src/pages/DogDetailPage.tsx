@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link, useParams, useNavigate } from 'react-router-dom'
-import { ChevronLeft, PawPrint, Share2, Pencil, Trash2, QrCode, Plus, ShieldCheck, AlertTriangle, X, Globe, Camera, ImageIcon } from 'lucide-react'
+import { ChevronLeft, PawPrint, Share2, Pencil, Trash2, QrCode, Plus, ShieldCheck, AlertTriangle, X, Globe, Camera } from 'lucide-react'
 import { QRCodeSVG } from 'qrcode.react'
 import { AppShell } from '../components/AppShell'
 import { useAuth } from '../hooks/useAuth'
