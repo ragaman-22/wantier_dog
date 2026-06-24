@@ -1,32 +1,31 @@
 import { Calendar, MapPin, ShoppingBag, Users, ArrowRight, Star } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
 
-// 用途に合った写真（Unsplash - 内容を実際に確認済み）
-// ヒーロー：男性が海辺で犬を抱きしめている温かい写真
-const HERO_IMG = 'https://plus.unsplash.com/premium_photo-1673710478854-ddcfe891707e?w=1600&q=85'
+// 犬メインの写真のみ使用
+const HERO_IMG = 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1600&q=85'
 
 const FEATURE_IMGS = [
-  // イベント：女性が屋外でミニチュアシュナウザーを抱いている
-  'https://images.unsplash.com/photo-1580230273693-c83dfa2b9bac?w=800&q=80',
-  // ドッグラン：芝生の公園で小型犬が走っている
+  // フェス：公園で犬が集まっている
+  'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&q=80',
+  // ドッグラン：芝生を走る犬
   'https://images.unsplash.com/photo-1534361960057-19889db9621e?w=800&q=80',
-  // ショップ：ペットショップのショッピングカートに乗る犬
-  'https://images.unsplash.com/photo-1733451629195-a253141eb37c?w=800&q=80',
-  // コミュニティ：秋の野原で家族と黒い犬が一緒にいる温かい写真
-  'https://plus.unsplash.com/premium_photo-1681881250121-ad3538d0169a?w=800&q=80',
+  // プロフィール：かわいい犬のアップ
+  'https://images.unsplash.com/photo-1601979031925-424e53b6caaa?w=800&q=80',
+  // コミュニティ：複数の犬
+  'https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=800&q=80',
 ]
 
 const STORY_IMGS = [
   'https://images.unsplash.com/photo-1534361960057-19889db9621e?w=200&q=80',
-  'https://images.unsplash.com/photo-1580230273693-c83dfa2b9bac?w=200&q=80',
-  'https://images.unsplash.com/photo-1580230273708-4e7b8f6d63c0?w=200&q=80',
-  'https://images.unsplash.com/photo-1733451629195-a253141eb37c?w=200&q=80',
+  'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=200&q=80',
+  'https://images.unsplash.com/photo-1601979031925-424e53b6caaa?w=200&q=80',
+  'https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=200&q=80',
 ]
 
 const REVIEW_DOG_IMGS = [
   'https://images.unsplash.com/photo-1534361960057-19889db9621e?w=100&q=80',
-  'https://images.unsplash.com/photo-1580230273693-c83dfa2b9bac?w=100&q=80',
-  'https://plus.unsplash.com/premium_photo-1681881250121-ad3538d0169a?w=100&q=80',
+  'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=100&q=80',
+  'https://images.unsplash.com/photo-1601979031925-424e53b6caaa?w=100&q=80',
 ]
 
 // CTA：子供がハスキー犬を抱きしめている温かいシーン

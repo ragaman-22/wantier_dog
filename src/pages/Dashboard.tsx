@@ -6,12 +6,12 @@ import {
 } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
-const FEATURED_IMG = 'https://images.unsplash.com/photo-1580230273693-c83dfa2b9bac?w=800&q=80'
+const FEATURED_IMG = 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=80'
 
 const MOCK_EVENTS = [
-  { id: '1', title: 'わんわんフェスタ 2024 夏', date: '2024年7月20日', location: '東京・代々木公園', img: 'https://images.unsplash.com/photo-1580230273708-4e7b8f6d63c0?w=400&q=80' },
+  { id: '1', title: 'わんわんフェスタ 2024 夏', date: '2024年7月20日', location: '東京・代々木公園', img: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=400&q=80' },
   { id: '2', title: '柴犬まつり in 大阪', date: '2024年7月27日', location: '大阪・服部緑地', img: 'https://images.unsplash.com/photo-1534361960057-19889db9621e?w=400&q=80' },
-  { id: '3', title: 'ドッグラン交流会', date: '2024年8月3日', location: '神奈川・横浜', img: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=400&q=80' },
+  { id: '3', title: 'ドッグラン交流会', date: '2024年8月3日', location: '神奈川・横浜', img: 'https://images.unsplash.com/photo-1601979031925-424e53b6caaa?w=400&q=80' },
   { id: '4', title: 'わんこ写真撮影会', date: '2024年8月10日', location: '埼玉・さいたま市', img: 'https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=400&q=80' },
 ]
 
