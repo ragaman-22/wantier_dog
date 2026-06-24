@@ -2,7 +2,7 @@ import { Calendar, MapPin, ShoppingBag, Users, ArrowRight, Star } from 'lucide-r
 import { useNavigate } from 'react-router-dom'
 
 // 犬メインの写真のみ使用
-const HERO_IMG = 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1600&q=85'
+const HERO_IMG = 'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1600&q=85'
 
 const FEATURE_IMGS = [
   // フェス：公園で犬が集まっている
